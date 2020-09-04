@@ -2,6 +2,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-image: "../images/cool-background.png";
 }
 main {
   flex: 1 0 auto;
@@ -14,7 +15,6 @@ footer.page-footer {
 .text {
   margin-top: 200px;
   padding-bottom: 15px;
-  background-color: white;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -31,19 +31,19 @@ li {
 }
 
 nav {
-  background-color: green;
+  background-color: #034e40;
 }
 
 .page-footer {
-  background-color: green;
+  background-color: #034e40;
 }
 
 .card-content {
-  color: green;
+  color: #034e40;
 }
 
 .btn {
-  background-color: green;
+  background-color: #034e40;
 }
 h3 {
   margin: 10px;
@@ -51,6 +51,7 @@ h3 {
 
 h5 {
   margin: 10px;
+  opacity: 0.5;
 }
 
 #mission {
@@ -63,4 +64,8 @@ p {
 
 li {
   font-size: 20px;
+}
+
+#bg {
+  background-size: cover;
 }
